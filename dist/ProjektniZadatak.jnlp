@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjektniZadatak.jnlp">
+  <information>
+    <title>ProjektniZadatak</title>
+    <vendor>Markovic</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjektniZadatak.jar" size="26921" download="eager" />
+    <jar href="lib\commons-net-3.6.jar" size="307410" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.11.jar" size="2036609" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProjektniZadatak" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="forms.LoginForma"  name="ProjektniZadatak" />
+  <update check="always"/>
+</jnlp>
